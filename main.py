@@ -1,5 +1,5 @@
 import streamlit as st
-from langchain.schema import Document
+from langchain_core.documents import Document
 from youtube_transcript_api import YouTubeTranscriptApi
 from urllib.parse import urlparse, parse_qs
 from langchain_google_genai import ChatGoogleGenerativeAI, GoogleGenerativeAIEmbeddings
